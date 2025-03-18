@@ -1,1 +1,1 @@
-{"version":3,"file":"2-form.js","sources":[],"sourcesContent":[],"names":[],"mappings":""}
+{"version":3,"file":"2-form.js","sources":["../src/js/2-form.js"],"sourcesContent":["const form = document.querySelector('.feedback-form');\n\nconst LS_KEY = 'feedback-form-state';\n\nconst formData = {\n  email: '',\n  message: '',\n};\n\nfunction saveToLocalStorage() {\n  localStorage.setItem(LS_KEY, JSON.stringify(formData));\n}\n"],"names":[],"mappings":"oDAAa,SAAS,cAAc,gBAAgB"}
