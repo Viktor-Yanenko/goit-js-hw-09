@@ -16,7 +16,7 @@ li {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 20px;
-    width: calc();
+    margin-top: 24px;
 }
 
 .gallery-image {

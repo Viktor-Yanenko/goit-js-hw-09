@@ -7,7 +7,6 @@ body{
 .feedback-form{
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     gap: 8px;
     padding: 24px;
     width: 408px;
@@ -15,6 +14,7 @@ body{
     background-color: #fff;
     border-radius: 16px;
     margin: 0 auto;
+    margin-top: 24px;
 }
 
 .feedback-form label{
